@@ -3,7 +3,19 @@
 .dropdown-menu {
   min-width: 14.3rem;
 }
-
+//general
+.small-text {
+  font-size: 13px;
+}
+.grey-text {
+  color: #9e9e9e;
+}
+//overwrite
+#portfolio .portfolio-item .portfolio-caption p {
+  &.small-text {
+    font-size: 13px;
+  }
+}
 //icons
 .flaticon {
   z-index: 2;
