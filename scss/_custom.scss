@@ -3,6 +3,13 @@
 .dropdown-menu {
   min-width: 14.3rem;
 }
+//navbar
+#mainNav {
+  background-color: #ffcb16;
+  .navbar-toggler {
+    background-color: #004938;
+  }
+}
 //general
 .small-text {
   font-size: 13px;
