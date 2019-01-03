@@ -9,6 +9,14 @@
   .navbar-toggler {
     background-color: #004938;
   }
+  &.navbar-shrink {
+    background-color: #ffcb16;
+  }
+  .navbar-nav .nav-item {
+    .nav-link.active, .nav-link:hover {
+      color: #004938;
+    }
+  }
 }
 //general
 .small-text {
