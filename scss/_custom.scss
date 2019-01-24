@@ -55,6 +55,14 @@
 .bg-light {
   background-color: #eceded!important;
 }
+//recommendations and benefits
+#benefits, #recommendations {
+  .section-heading {
+    @media(max-width:375px) {
+      font-size: 30px;
+    }
+  }
+}
 //overwrite
 #portfolio .portfolio-item .portfolio-caption p {
   &.small-text {
