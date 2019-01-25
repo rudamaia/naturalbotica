@@ -55,6 +55,11 @@
 .bg-light {
   background-color: #eceded!important;
 }
+.portfolio-caption {
+  a {
+    word-break: break-all;
+  }
+}
 //recommendations and benefits
 #benefits, #recommendations {
   .section-heading {
