@@ -21,7 +21,7 @@ $(function() {
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
       $.ajax({
 
-        url: "//formspree.io/contatonaturalbotica@gmail.com",
+        url: "https://mailthis.to/contatonaturalbotica@gmail.com",
         type: "POST",
         data: {
           name: name,
@@ -42,7 +42,8 @@ $(function() {
           //clear all fields
           $('#contactForm').trigger("reset");
         },
-        error: function() {
+        error: function(exception) {
+          console.log(exception);
           // Fail message
           $('#success').html("<div class='alert alert-danger'>");
           $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
